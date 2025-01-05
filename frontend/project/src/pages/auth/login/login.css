@@ -1,0 +1,67 @@
+.center-form{
+    background: url(../../../assets/AuthBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; 
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .form1 {
+    margin-bottom: 15px;
+  }
+  
+  .form1 .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  Button {
+    background-color: rgb(61, 58, 255);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  Button:hover {
+    background-color: rgb(59, 48, 214); 
+  }
+  
+  .alert {
+    margin-bottom: 20px;
+  }
+  
+  .mt-3 {
+    margin-top: 20px;
+  }
+  
+  .text-center p {
+    font-size: 14px;
+  }
+  
+  .text-decoration-none {
+    text-decoration: none;
+    color: rgb(58, 91, 255);
+  }
+  
+  .text-decoration-none:hover {
+    color: rgb(48, 73, 214); 
+  }

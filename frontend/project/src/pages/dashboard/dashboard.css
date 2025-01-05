@@ -1,0 +1,64 @@
+.app-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f7fc;
+    text-align: center;
+  }
+  
+  .header .logo {
+    width: 550px;
+    margin: 10px auto;
+  }
+  
+  .description {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .description h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .description p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  
+  .vision-mission {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .vision, .mission {
+    width: 45%;
+  }
+  
+  .vision h2, .mission h2 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .vision p, .mission ul {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .mission ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .mission li {
+    margin-bottom: 10px;
+  }
+  

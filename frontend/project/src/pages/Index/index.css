@@ -1,0 +1,70 @@
+.landing-main{
+    font-size: 30px;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(../../assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+  font-weight: bold;
+}
+
+.landing-login-button{
+    background: rgb(58, 91, 255);
+    color: white;
+    border: 3px solid rgb(58, 91, 255);
+    transition: background 1s linear 0ms;
+    transition: color 500ms linear 0ms;
+
+    width: 500px;
+    padding: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .landing-register-button{
+    background: rgb(61, 58, 255);
+    color: white;
+    border: 3px solid rgb(61, 58, 255);
+    transition: background 1s linear 0ms;
+    transition: color 500ms linear 0ms;
+
+    width: 500px;
+    padding: 16px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  .landing-register-button:hover{
+    color: rgb(58, 61, 255);
+    background-color: white;
+  }
+
+  .landing-login-button:hover{
+    color: rgb(58, 61, 255);
+    background-color: white;
+  }
